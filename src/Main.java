@@ -6,6 +6,8 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
+
 
     }
     public static void task1 (){System.out.println("Задача 1");
@@ -39,6 +41,11 @@ public class Main {
         for (int s = 7; s <= 98; s = s + 7) {
             System.out.println(s);
         }
+    }
+    public static void task7() {
+        System.out.println("Задача 7");
+        for (int d = 1; d <= 512; d = d * 2){
+            System.out.println(d);}
     }
 
 }
