@@ -4,6 +4,8 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
+
 
 
     }
@@ -25,6 +27,12 @@ public class Main {
         System.out.println("Задача 4");
         for (int a = 10; a >= -10; a = a - 1) {
             System.out.println("Итерация цикла "  +  a);
+        }
+    }
+    public static void task5() {
+        System.out.println("Задача 5");
+        for (int g = 1904; g < 2096; g = g + 4) {
+            System.out.println(g + " Год является высокосным");
         }
     }
 
